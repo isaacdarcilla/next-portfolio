@@ -3,7 +3,7 @@
   "description": "A website to show off some of my projects",
   "version": "1.0.0",
   "private": true,
-  "author": "https://www.github.com/mah51",
+  "author": "https://www.github.com/isaacdarcilla",
   "license": "MIT",
   "keywords": [
     "nextjs",
@@ -13,7 +13,7 @@
   "scripts": {
     "dev": "next",
     "debug": "cross-env NODE_OPTIONS='--inspect' next dev",
-    "build": "next build && next start",
+    "build": "next build",
     "start": "next start",
     "type-check": "tsc",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
