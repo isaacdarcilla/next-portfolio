@@ -91,7 +91,7 @@ export default function Home(): React.ReactElement {
                 I am working as a Software Engineer based in the Philippines.{' '}
                 This site hosts all of my projects, self-education, technology, work experience, blog and more.
                 <br/><br/>
-                And if you want to hire me, do not hesitate to call!
+                And if you want to hire me, do not hesitate to contact me!
               
               </chakra.p>
             </Flex>

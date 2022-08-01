@@ -90,7 +90,7 @@ function Projects({ repos }: ProjectsProps): React.ReactElement {
           </Text>
           <Button
             as="a"
-            href="https://github.com/mah51"
+            href="https://github.com/isaacdarcilla"
             variant="ghost"
             colorScheme="brand"
             size="lg"

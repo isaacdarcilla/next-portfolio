@@ -11,6 +11,7 @@ import AppLayout from '@/components/AppLayout';
 import theme from '../src/theme';
 import MDXComponents from '@/components/MDXComponents';
 import { MDXProvider } from '@mdx-js/react';
+import Head from 'next/head';
 
 const queryClient = new QueryClient();
 export default function MyApp({
@@ -40,7 +41,7 @@ export default function MyApp({
     <>
       <DefaultSeo
         defaultTitle="Isaac Arcilla"
-        titleTemplate="%s | Isaac Arcilla"
+        titleTemplate="Isaac Arcilla — %s"
         openGraph={{
           title: `Isaac Arcilla`,
           type: `website`,

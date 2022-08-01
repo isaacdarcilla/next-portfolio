@@ -36,7 +36,9 @@ const info = (props: any): { input: string; return: string }[] => [
       props
     )}" rel="noopener" href="https://facebook.com/isaacdarcilla">Facebook</a>", "<a rel="noopener" style="${style(
       props
-    )}" href="https://gitlab.com/isaacdarcilla">Gitlab</a>"]`,
+    )}" href="https://gitlab.com/isaacdarcilla">Gitlab</a>", "<a rel="noopener" style="${style(
+      props
+    )}" href="https://twitter.com/isaacdarcilla">Twitter</a>"]`,
   },
 ];
 

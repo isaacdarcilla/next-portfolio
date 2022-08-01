@@ -11,7 +11,7 @@ import {
   SimpleGrid,
   useColorMode,
 } from '@chakra-ui/react'
-import { FaFacebook, FaGithub, FaGitlab, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaGitlab, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { useQuery } from 'react-query'
 import { BsPauseFill } from 'react-icons/bs'
 import SocialIcons from './SocialIcons'
@@ -157,6 +157,9 @@ const Footer = (): JSX.Element => {
           </SocialIcons>
           <SocialIcons label='Gitlab' href='https://www.gitlab.com/isaacdarcilla/'>
             <FaGitlab />
+          </SocialIcons>
+          <SocialIcons label='Twitter' href='https://www.twitter.com/isaacdarcilla/'>
+            <FaTwitter />
           </SocialIcons>
         </Stack>
       </SimpleGrid>

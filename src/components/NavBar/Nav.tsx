@@ -23,8 +23,8 @@ const links = [
     link: '/blog',
   },
   {
-    name: `Projects`,
-    link: `/projects`,
+    name: `Resume`,
+    link: `https://isaacdarcilla.github.io/resume/`,
   },
   // {
   //   name: `Research`,

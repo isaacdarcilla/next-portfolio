@@ -1,12 +1,10 @@
 export const pinnedRepos: pinnedRepoType[] = [
   {
-    image:
-      'https://user-images.githubusercontent.com/47287285/119244610-38467080-bb6a-11eb-8c0e-2e241a31dac8.png',
-    name: 'WormTracker',
-    stack: ['React', 'Semantic-UI'],
-    id: 'WormTracker',
+    name: 'Pageant Management System',
+    stack: ['PHP', 'MySQL', 'CSS', 'Bootstrap'],
+    id: '1',
     longDescription:
-      'A quick tool I whipped up to help count worm tracks in grids on pictures of agar plates. Pretty weird, and super scuffed, but it worked well for the short time it was used.',
+      'A thesis project developed in 2018. This system organizes pageant and contest events from registration to score results. The system was implemented in a pageant event that was featured in Kapuso Mo, Jessica Soho.',
   },
   {
     id: `mikebot`,

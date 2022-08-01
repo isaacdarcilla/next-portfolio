@@ -44,16 +44,16 @@ const BlogLayout = ({
       <NextSeo
         title={frontMatter.title}
         description={frontMatter.summary}
-        canonical={`https://mikeroph.one${router.asPath}`}
+        canonical={`https://isaacdarcilla.dev${router.asPath}`}
         twitter={{
           cardType: 'summary_large_image',
-          site: '@Mikerophone_',
+          site: '@isaacdarcilla',
         }}
         openGraph={{
           title: frontMatter.title,
-          site_name: 'Michael Hall',
+          site_name: 'Isaac Arcilla',
           description: frontMatter.summary,
-          url: `https://mikeroph.one${router.asPath}/`,
+          url: `https://isaacdarcilla.dev${router.asPath}/`,
 
           type: 'article',
           article: {
@@ -61,7 +61,7 @@ const BlogLayout = ({
           },
           images: [
             {
-              url: `https://mikeroph.one${frontMatter.image}`,
+              url: `https://isaacdarcilla.dev${frontMatter.image}`,
             },
           ],
         }}
@@ -143,7 +143,7 @@ const BlogLayout = ({
           className={'blog-content'}
         >
           {children}
-          <HStack justifyContent="flex-start" mr="auto" mt={5}>
+          {/* <HStack justifyContent="flex-start" mr="auto" mt={5}>
             <EditIcon />
             <Link
               href={`https://github.com/mah51/mikeroph.one/edit/main/src/data/blog/${frontMatter.slug}.mdx`}
@@ -157,7 +157,7 @@ const BlogLayout = ({
                 Edit on github
               </ChakraLink>
             </Link>
-          </HStack>
+          </HStack> */}
         </Box>
       </chakra.article>
     </>
