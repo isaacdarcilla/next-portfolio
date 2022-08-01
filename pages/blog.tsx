@@ -18,6 +18,7 @@ import BlogPost from '@/components/BlogPost';
 import LineHeading from '@/components/LineHeading';
 import { AiOutlineSearch } from 'react-icons/ai';
 import { BiChevronDown } from 'react-icons/bi';
+import { NextSeo } from 'next-seo';
 
 function Blog({ posts }: { posts: any }): React.ReactElement {
   const [filter, setFilter] = useState('');
@@ -44,6 +45,7 @@ function Blog({ posts }: { posts: any }): React.ReactElement {
 
   return (
     <Flex direction='column' alignItems='center' width='full' minH='100vh' mx='auto' maxW='5xl'>
+      <NextSeo title="Blog" />
       <LineHeading
         mt='28'
         fontSize={{ base: `3xl`, sm: `4xl`, md: `5xl`, lg: `6xl` }}
