@@ -6,10 +6,8 @@ import {
   chakra,
   useColorModeValue,
   Skeleton,
-  Link as ChakraLink,
   useBreakpoint,
 } from '@chakra-ui/react';
-import Link from 'next/link';
 import React, { useState } from 'react';
 import { NextSeo } from 'next-seo';
 import AboutTerminal from '@/components/AboutTerminal';

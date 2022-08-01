@@ -5,16 +5,12 @@ import {
   chakra,
   Box,
   Flex,
-  Link as ChakraLink,
   Text,
   useColorModeValue,
-  HStack,
   Tag,
 } from '@chakra-ui/react';
 import { format, parseISO } from 'date-fns';
 import ViewCounter from '../ViewCounter';
-import Link from 'next/link';
-import { EditIcon } from '@chakra-ui/icons';
 import { frontMatterType } from '@/utils/mdx';
 import BlogBadge from '../BlogBadge';
 import { NextSeo } from 'next-seo';

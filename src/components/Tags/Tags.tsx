@@ -2,7 +2,7 @@ import { getTotalCharCode } from '@/utils/utils';
 import { Stack, Tag, TagLeftIcon, TagLabel, useMediaQuery } from '@chakra-ui/react';
 import React from 'react';
 import { BsFillLightningFill } from 'react-icons/bs';
-import { FaDiscord, FaPhp, FaReact } from 'react-icons/fa';
+import { FaDiscord, FaReact } from 'react-icons/fa';
 import { IoLogoNodejs } from 'react-icons/io';
 import { SiMarkdown, SiMysql, SiPhp } from 'react-icons/si';
 import { NextJSIcon, SemanticIcon, TypeScriptIcon } from '../Icons';

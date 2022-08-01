@@ -11,7 +11,7 @@ import {
   SimpleGrid,
   useColorMode,
 } from '@chakra-ui/react'
-import { FaFacebook, FaGithub, FaGitlab, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaGitlab, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { useQuery } from 'react-query'
 import { BsPauseFill } from 'react-icons/bs'
 import SocialIcons from './SocialIcons'
