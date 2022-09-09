@@ -18,14 +18,14 @@ import useScrollPosition from '@/hooks/useScrollPosition.hook';
 import { useEffect } from 'react';
 
 const links = [
-  {
-    name: 'Blog',
-    link: '/blog',
-  },
-  {
-    name: `Resume`,
-    link: `https://isaacdarcilla.github.io/resume/`,
-  },
+  // {
+  //   name: 'Blog',
+  //   link: '/blog',
+  // },
+  // {
+  //   name: `Resume`,
+  //   link: `https://isaacdarcilla.github.io/resume/`,
+  // },
   // {
   //   name: `Research`,
   //   link: `/research`,

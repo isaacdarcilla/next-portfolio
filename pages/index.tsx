@@ -86,8 +86,9 @@ export default function Home(): React.ReactElement {
                 fontSize="xl"
                 mt={2}
               >
-                I am working as a Software Engineer based in the Philippines.{' '}
-                This site hosts all of my projects, self-education, technology, work experience, blog and more.
+                I am working as a Software Engineer based in the Philippines{' '}
+                passionately designing and building software from concept to launch, for over 3 years… and going 💪
+
                 <br/><br/>
                 And if you want to hire me, do not hesitate to contact me!
               

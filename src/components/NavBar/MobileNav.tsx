@@ -19,7 +19,7 @@ function MobileNav({ links }: { links: any }): JSX.Element {
     <Box display={{ md: `none` }}>
       <ToggleTheme />
 
-      <IconButton
+      {/* <IconButton
         aria-label='toggle menu'
         icon={
           mobileNav.isOpen ? (
@@ -30,7 +30,7 @@ function MobileNav({ links }: { links: any }): JSX.Element {
         }
         variant='ghost'
         onClick={mobileNav.isOpen ? mobileNav.onClose : mobileNav.onOpen}
-      />
+      /> */}
 
       <VStack
         pos='absolute'
