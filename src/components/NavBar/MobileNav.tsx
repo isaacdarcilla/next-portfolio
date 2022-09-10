@@ -8,7 +8,6 @@ import {
   Link as ChakraLink,
 } from '@chakra-ui/react'
 import Link from 'next/link'
-import { AiOutlineMenu } from 'react-icons/ai'
 import ToggleTheme from './ToggleTheme'
 
 function MobileNav({ links }: { links: any }): JSX.Element {
