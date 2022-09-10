@@ -17,7 +17,7 @@ export default function Home(): React.ReactElement {
   const bp = useBreakpoint();
   return (
     <>
-      <NextSeo title="Home" />
+      <NextSeo title="Software Engineer" />
 
       <Box
         minH="100vh"
@@ -90,7 +90,7 @@ export default function Home(): React.ReactElement {
                 passionately designing and building software from concept to launch, for over 3 years… and going 💪
 
                 <br/><br/>
-                And if you want to hire me, do not hesitate to contact me!
+                And if you want to hire me, do not hesitate to <u><a href='tel:09509342323'>contact me</a></u>!
               
               </chakra.p>
             </Flex>
