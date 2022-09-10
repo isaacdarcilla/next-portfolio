@@ -2,8 +2,6 @@ import React from 'react'
 import {
   Box,
   Button,
-  CloseButton,
-  IconButton,
   useColorModeValue,
   useDisclosure,
   VStack,
