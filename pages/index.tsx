@@ -87,7 +87,7 @@ export default function Home(): React.ReactElement {
                 mt={2}
               >
                 I am working as a Software Engineer based in the Philippines{' '}
-                passionately designing and building software from concept to launch, for over 3 years… and going 💪
+                passionately designing and building software applications from concept to launch, for 3 years… and going 💪
 
                 <br/><br/>
                 And if you want to hire me, do not hesitate to <u><a href='tel:09509342323'>contact me</a></u>!
