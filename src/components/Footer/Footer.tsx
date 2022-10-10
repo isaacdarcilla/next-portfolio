@@ -15,6 +15,7 @@ import { FaFacebook, FaGithub, FaGitlab, FaLinkedin, FaTwitter } from 'react-ico
 import { useQuery } from 'react-query'
 import { BsPauseFill } from 'react-icons/bs'
 import SocialIcons from './SocialIcons'
+import { EmailIcon } from '@chakra-ui/icons'
 
 const Footer = (): JSX.Element => {
   const { colorMode } = useColorMode()
@@ -48,43 +49,12 @@ const Footer = (): JSX.Element => {
               />
             </Icon>
           ) : (
-            <Icon color='brand.500' boxSize='1.4em' as={BsPauseFill} />
+            <Icon color='brand.500' boxSize='1.4em' as={EmailIcon} />
           )}
 
           <Flex ml={2} isTruncated>
-            {currentlyPlaying?.songUrl ? (
-              <chakra.a
-                color={colorMode === 'light' ? `gray.900` : `gray.200`}
-                fontSize='md'
-                fontWeight='semibold'
-                maxW='60%'
-                isTruncated
-                href={currentlyPlaying.songUrl}
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                {currentlyPlaying.name}
-              </chakra.a>
-            ) : (
-              <chakra.p
-                color={colorMode === 'light' ? `gray.900` : `gray.200`}
-                fontSize='md'
-                maxW='60%'
-                isTruncated
-                fontWeight='semibold'
-              >
-                {error ? `There was an error` : `Not Playing`}
-              </chakra.p>
-            )}
-            <chakra.span
-              mx={2}
-              color={useColorModeValue(`gray.600`, `gray.300`)}
-              display={{ base: `hidden`, sm: `block` }}
-            >
-              {` – `}
-            </chakra.span>
             <chakra.p color='gray.600' isTruncated maxW='full'>
-              {currentlyPlaying?.artist ?? `Spotify`}
+              isaacdarcilla@gmail.com
             </chakra.p>
           </Flex>
         </Flex>
